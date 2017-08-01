@@ -1,0 +1,351 @@
+/*<!--
+  Crafted and Designed By DesignDrastic
+  Author: DesignDrastic
+  Author URL: http://designdrastic.com
+  License URL: http://designdrastic.com/license
+-->*/
+.w-100{
+  width: 100%;
+}
+.font-lato{
+  font-family: 'Lato', sans-serif;
+}
+.font-roboto{
+  font-family: 'Roboto', sans-serif;  
+}
+body{
+  background: #F1F1F1;
+}
+.top-unit{
+  z-index: -1;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  background: url(../img/tt-header-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top-unit + .container{
+  position: relative;
+}
+/* Common */
+.m-0{
+  margin: 0;
+}
+.p-0{`
+  padding: 0;
+}
+
+.underline{
+  border-bottom: 1px solid #483247;
+}
+.h-200{
+  height: 200px;
+}
+.tt-hr{
+  margin: 10px 0;
+  border-top: 1px solid #DADADA;
+}
+.delay-03{
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.delay-05{
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+.delay-10{
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+}
+.delay-15{
+  -webkit-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+.delay-20{
+  -webkit-transition-delay: 2.0s;
+  transition-delay: 2.0s;
+}
+.delay-25{
+  -webkit-transition-delay: 2.5s;
+  transition-delay: 2.5s;
+}
+.img-res{
+  width: 80%;
+}
+.p-b-i{
+  padding-bottom: 12px !important;
+}
+/* Header */
+.tt-logo{
+  font-size: 40px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  font-family: 'Lato', sans-serif;
+}
+.tt-social ul{
+  list-style: none;
+  margin-top: 10px;
+}
+.tt-social ul li{
+  margin-left: 3px;
+  vertical-align: middle;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+  float: left;
+  padding: 6px;
+}
+.tt-social ul li a{
+  font-size: 20px;
+  color: white;
+}
+.tt-social ul li:hover{
+  transform: rotate(-360deg);
+  background: #005076;
+}
+.tt-social ul li:hover i{
+  color: white !important;
+}
+.navbar-toggle i{
+  color: #FFF;
+}
+.menu{
+  background: rgb(0, 80, 118);
+  box-shadow: 0px 0px 0px 2px rgb(0, 80, 118);
+  margin: 2px;
+}
+.menu ul{
+  border-top: 2px dotted white;
+  border-bottom: 2px dotted white;
+  list-style: none;
+  text-align: center;
+  padding: 12px 0;
+}
+.menu ul li{
+  display: inline;
+}
+.menu ul li a{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 15px;
+  padding: 16px 10px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+.menu ul li a:hover{
+  text-decoration: none;
+  color: #005076;
+  box-shadow: 0 57px 0 0 #DDF5F7 inset;
+}
+.menu ul li.active a{
+  box-shadow: 0 57px 0px 0px #DDF5F7 inset;
+  color: #005076;
+}
+.tt-box{
+  border: 1px solid #CCC;
+  padding: 10px;
+  border-radius: 3px;
+}
+.tt-box .box-title{
+  color:;
+  font-family: 'Roboto', sans-serif;  
+  font-size: 20px;
+  border-bottom: 1px solid #005076;
+  padding-bottom: 10px;
+}
+/* Forms elements */
+.tt-input{
+  border: 1px solid #CCC;
+  height: 40px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 10px;
+}
+.tt-input:hover{
+  border: 1px solid #999;
+  box-shadow: 0 0 7px 0 #CCC inset;
+}
+.tt-input:focus{
+  border: 1px solid #483247;
+}
+.tt-txtarea{
+  min-height: 140px;
+  resize: vertical;
+}
+.tt-group i{
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 12px;
+  color: #666;
+}
+.tt-group input, .tt-group textarea{
+  padding-left: 30px;
+  transition: 0.4s;
+}
+.tt-group-txt i{
+  margin-top: -142px;
+}
+.tt-group input:focus, .tt-group textarea:focus{
+  padding-left: 5px;
+}
+.tt-group input:focus + i, .tt-group textarea:focus + i{
+  visibility: hidden;
+}
+.tt-btn{
+  border: 2px solid #005076;
+  height: 40px;
+  width: 120px;  
+  background: transparent;
+  color: #005076;
+  font-family: 'Source Sans Pro', sans-serif;
+  transition: 0.4s;
+  outline: none;
+}
+.tt-btn:hover{
+  color: white;
+  box-shadow: 0 40px 0 0 #005076 inset;
+}
+/* Slider */
+.carousel-control.left{
+  background: inherit;
+}
+.arrow-c{
+  margin-top: 83px;
+  font-size: 42px;
+  position: absolute;
+  color: #483247;
+}
+.arrow-left{
+  left: -16px;
+}
+.arrow-right{
+  right: -16px;
+}
+.carousel-control.right{
+  background: inherit;
+}
+.carousel-inner{
+  border: 1px solid #CCC;
+  box-shadow: 0px 3px 12px 1px #CCC;
+}
+
+/* Container content */
+.content{
+  color: #384951;
+  border: inset 51px solid #7E858B;
+  padding: 15px;
+  border: 1px solid #005076;
+  margin-top: -9px;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  transition: 0.5s;
+  font-size: 15px;
+}
+.title{
+  font-size: 25px;
+  color: #00486A;
+  font-family: 'Lato', sans-serif;
+  border-bottom: 1px dotted #CCC;
+  margin-top: 0px;
+}
+.title-underline{
+  padding: 2px 0px;
+}
+/* Faq accordian */
+.tt-panel{
+  border: 1px solid #005076;
+}
+.tt-panel .panel-heading{
+  cursor: pointer;
+  background: #005076;
+  color: white;
+}
+/* Footer */
+.footer{
+  background: #333;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
+.m-br-5{
+  margin-bottom: -5px;
+}
+
+/*************/
+.tt-service-heading{
+  padding-top: 20px;
+  color: #00486A;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+.tt-div-heading{
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #005076;
+}
+.tt-service-heading-txt{
+  font-family: 'Roboto', sans-serif;  
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+.text-justify .animated a{
+  text-decoration-line: none;
+}
+.tt-donation-body{
+  margin-top: 10px;
+}
+.tt-condition-head-line{
+  padding-top: 10px;
+}
+.service-box-heading{
+  font-family: 'Lato', sans-serif;
+}
+.service-box-heading span{ 
+  padding-bottom: 2px;
+  box-shadow:0px 2px 0px 0 #005076;
+  }
+/* Media query */
+@media(max-width: 768px) {
+  .tt-logo{
+    font-size: 25px !importantportant;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .active{
+    background: #0AA0F6;
+  }
+  .active a{
+    box-shadow: none;
+  }
+  .menu{
+    margin: 0px;
+  }
+  .menu ul{
+    box-shadow: none;
+  }
+  .menu ul li{
+    display: block;
+    padding: 12px;
+  }
+  .menu ul li:hover{
+    background: #0AA0F6;
+  }
+  .menu ul li a:hover{
+    box-shadow: none !important;
+  }
+  .top-unit{
+    border-bottom: none;
+  }
+}
